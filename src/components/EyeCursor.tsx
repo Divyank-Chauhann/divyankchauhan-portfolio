@@ -53,7 +53,7 @@ export function EyeCursor() {
       const target = (e.target as HTMLElement | null)?.closest?.(
         "[data-cursor], a, button",
       ) as HTMLElement | null;
-      const next = (target?.dataset?.cursor as CursorState | undefined) ??
+      const next = (target?.dataset?.["cursor"] as CursorState | undefined) ??
         (target ? "link" : "default");
       if (next === state) return;
       state = next;
