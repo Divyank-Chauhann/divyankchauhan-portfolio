@@ -110,7 +110,7 @@ export function EyeCursor() {
     <div
       ref={rootRef}
       aria-hidden="true"
-      className="pointer-events-none fixed left-0 top-0 z-[100] hidden opacity-0 [@media(hover:hover)and(pointer:fine)]:block"
+      className="pointer-events-none fixed left-0 top-0 z-[100] hidden opacity-0 eye-cursor"
       style={{ willChange: "transform" }}
     >
       <div className="-translate-x-1/2 -translate-y-1/2">
