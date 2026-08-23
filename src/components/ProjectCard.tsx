@@ -12,6 +12,9 @@ export function ProjectCard({
   align?: "left" | "right";
 }) {
   const reduced = useReducedMotion();
+  const linkProps = project.external
+    ? { target: "_blank" as const, rel: "noopener noreferrer" }
+    : {};
 
   return (
     <article className="group border-t border-hairline py-10 md:py-16">
