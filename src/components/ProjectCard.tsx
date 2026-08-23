@@ -39,14 +39,20 @@ export function ProjectCard({
               viewport={{ once: true, margin: "-12% 0px" }}
               transition={{ duration: 1.1, ease: EASE }}
             >
-              <img
-                src={project.image}
-                alt={`${project.title} — ${project.category} case study preview`}
-                loading="lazy"
-                width={1600}
-                height={1104}
-                className="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform group-hover:scale-[1.04]"
-              />
+              <div className="transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform group-hover:scale-[1.04]">
+                {project.mockup === "fluxpay" ? (
+                  <FluxPayMockup />
+                ) : (
+                  <img
+                    src={project.image}
+                    alt={`${project.title} — ${project.category} case study preview`}
+                    loading="lazy"
+                    width={1600}
+                    height={1104}
+                    className="h-full w-full object-cover"
+                  />
+                )}
+              </div>
             </motion.div>
           </a>
         </div>
