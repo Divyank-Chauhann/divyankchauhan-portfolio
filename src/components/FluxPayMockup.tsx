@@ -7,19 +7,19 @@ const phones = [
     src: scanAsset.url,
     alt: "FluxPay scan QR code screen",
     className:
-      "w-[26%] -rotate-6 translate-y-[6%] z-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)]",
+      "w-[23%] -rotate-6 translate-y-[3%] z-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)]",
   },
   {
     src: homeAsset.url,
     alt: "FluxPay home screen with account balance and recent activity",
     className:
-      "w-[30%] -mx-[3%] z-20 shadow-[0_40px_80px_-30px_rgba(0,0,0,0.6)]",
+      "w-[27%] -mx-[2.5%] z-20 shadow-[0_40px_80px_-30px_rgba(0,0,0,0.6)]",
   },
   {
     src: sendAsset.url,
     alt: "FluxPay send money screen with keypad",
     className:
-      "w-[26%] rotate-6 translate-y-[6%] z-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)]",
+      "w-[23%] rotate-6 translate-y-[3%] z-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)]",
   },
 ];
 
