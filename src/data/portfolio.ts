@@ -1,4 +1,4 @@
-import project01 from "@/assets/project-01.jpg";
+
 import project02 from "@/assets/project-02.jpg";
 import project03 from "@/assets/project-03.jpg";
 import project04 from "@/assets/project-04.jpg";
@@ -10,8 +10,10 @@ export type Project = {
   tools: string;
   year: string;
   description: string;
-  image: string;
+  image?: string;
   href: string;
+  external?: boolean;
+  mockup?: "fluxpay";
 };
 
 export const profile = {
@@ -30,14 +32,15 @@ export const profile = {
 export const projects: Project[] = [
   {
     index: "01",
-    title: "Management Dashboard",
-    category: "UI/UX Design",
-    tools: "Figma · UX Research · Prototyping",
+    title: "FluxPay",
+    category: "Mobile Payment App / UI/UX Design",
+    tools: "Figma · UX/UI Design · Prototyping",
     year: "2026",
     description:
-      "A management platform designed to simplify operations, clients, inventory, assets and service workflows.",
-    image: project01,
-    href: "#",
+      "A modern mobile payment experience designed for simple, fast, and intuitive money transfers.",
+    mockup: "fluxpay",
+    href: "https://www.figma.com/design/wsSZhha22b0UzeWvo01JMx/FluxPay?node-id=1-35&t=DuSbNLvxfOz9s3JS-1",
+    external: true,
   },
   {
     index: "02",

@@ -1,6 +1,7 @@
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/data/portfolio";
+import { FluxPayMockup } from "./FluxPayMockup";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -12,6 +13,9 @@ export function ProjectCard({
   align?: "left" | "right";
 }) {
   const reduced = useReducedMotion();
+  const linkProps = project.external
+    ? { target: "_blank" as const, rel: "noopener noreferrer" }
+    : {};
 
   return (
     <article className="group border-t border-hairline py-10 md:py-16">
@@ -21,6 +25,7 @@ export function ProjectCard({
         >
           <a
             href={project.href}
+            {...linkProps}
             data-cursor="view"
             aria-label={`View ${project.title}`}
             className="block overflow-hidden bg-muted"
@@ -35,14 +40,20 @@ export function ProjectCard({
               viewport={{ once: true, margin: "-12% 0px" }}
               transition={{ duration: 1.1, ease: EASE }}
             >
-              <img
-                src={project.image}
-                alt={`${project.title} — ${project.category} case study preview`}
-                loading="lazy"
-                width={1600}
-                height={1104}
-                className="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform group-hover:scale-[1.04]"
-              />
+              <div className="transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform group-hover:scale-[1.04]">
+                {project.mockup === "fluxpay" ? (
+                  <FluxPayMockup />
+                ) : (
+                  <img
+                    src={project.image}
+                    alt={`${project.title} — ${project.category} case study preview`}
+                    loading="lazy"
+                    width={1600}
+                    height={1104}
+                    className="h-full w-full object-cover"
+                  />
+                )}
+              </div>
             </motion.div>
           </a>
         </div>
@@ -73,6 +84,7 @@ export function ProjectCard({
 
           <a
             href={project.href}
+            {...linkProps}
             data-cursor="cta"
             className="label mt-6 inline-flex w-fit items-center gap-2 text-foreground"
           >
