@@ -1,6 +1,7 @@
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/data/portfolio";
+import { FluxPayMockup } from "./FluxPayMockup";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -83,6 +84,7 @@ export function ProjectCard({
 
           <a
             href={project.href}
+            {...linkProps}
             data-cursor="cta"
             className="label mt-6 inline-flex w-fit items-center gap-2 text-foreground"
           >
