@@ -10,8 +10,10 @@ export type Project = {
   tools: string;
   year: string;
   description: string;
-  image: string;
+  image?: string;
   href: string;
+  external?: boolean;
+  mockup?: "fluxpay";
 };
 
 export const profile = {
