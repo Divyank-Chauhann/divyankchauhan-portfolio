@@ -24,6 +24,7 @@ export function ProjectCard({
         >
           <a
             href={project.href}
+            {...linkProps}
             data-cursor="view"
             aria-label={`View ${project.title}`}
             className="block overflow-hidden bg-muted"
