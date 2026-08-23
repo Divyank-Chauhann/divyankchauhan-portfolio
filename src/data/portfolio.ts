@@ -1,4 +1,4 @@
-import project01 from "@/assets/project-01.jpg";
+
 import project02 from "@/assets/project-02.jpg";
 import project03 from "@/assets/project-03.jpg";
 import project04 from "@/assets/project-04.jpg";
