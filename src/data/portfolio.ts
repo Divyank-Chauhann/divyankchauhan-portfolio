@@ -1,5 +1,4 @@
 
-import project02 from "@/assets/project-02.jpg";
 import project03 from "@/assets/project-03.jpg";
 import project04 from "@/assets/project-04.jpg";
 
@@ -13,7 +12,7 @@ export type Project = {
   image?: string;
   href: string;
   external?: boolean;
-  mockup?: "fluxpay";
+  mockup?: "fluxpay" | "zaavic";
 };
 
 export const profile = {
@@ -44,14 +43,15 @@ export const projects: Project[] = [
   },
   {
     index: "02",
-    title: "Your Choice Plant",
+    title: "Zaavic Plants",
     category: "E-commerce UI/UX",
-    tools: "Figma · UI Design · Prototyping",
-    year: "2026",
+    tools: "Figma · UI/UX Design · Prototyping",
+    year: "2025",
     description:
-      "A calm, product-first shopping experience built around browsing, care guidance and effortless checkout.",
-    image: project02,
-    href: "#",
+      "A modern plant e-commerce experience designed to make discovering and shopping for plants simple and enjoyable.",
+    mockup: "zaavic",
+    href: "https://zaavicplants.netlify.app/",
+    external: true,
   },
   {
     index: "03",

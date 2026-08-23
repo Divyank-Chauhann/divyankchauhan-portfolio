@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/data/portfolio";
 import { FluxPayMockup } from "./FluxPayMockup";
+import { ZaavicMockup } from "./ZaavicMockup";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -43,6 +44,8 @@ export function ProjectCard({
               <div className="transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform group-hover:scale-[1.04]">
                 {project.mockup === "fluxpay" ? (
                   <FluxPayMockup />
+                ) : project.mockup === "zaavic" ? (
+                  <ZaavicMockup />
                 ) : (
                   <img
                     src={project.image}
