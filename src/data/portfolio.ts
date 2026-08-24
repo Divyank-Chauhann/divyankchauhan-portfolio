@@ -1,6 +1,5 @@
 
-import project03 from "@/assets/project-03.jpg";
-import project04 from "@/assets/project-04.jpg";
+import cars366MonitorAsset from "@/assets/cars366-monitor.jpg.asset.json";
 
 export type Project = {
   index: string;
@@ -55,25 +54,15 @@ export const projects: Project[] = [
   },
   {
     index: "03",
-    title: "Cars Marketplace",
+    title: "CARS366",
     category: "Web Design",
     tools: "Figma · HTML · CSS · JavaScript",
-    year: "2026",
+    year: "2024",
     description:
       "A marketplace interface where inventory, filtering and vehicle detail pages feel fast and considered.",
-    image: project03,
-    href: "#",
-  },
-  {
-    index: "04",
-    title: "Psychometric Test Platform",
-    category: "Product / UX Design",
-    tools: "Figma · UX Research · Interaction Design",
-    year: "2026",
-    description:
-      "An assessment product that turns long question flows into a clear, low-pressure and readable experience.",
-    image: project04,
-    href: "#",
+    image: cars366MonitorAsset.url,
+    href: "https://cars366.netlify.app/",
+    external: true,
   },
 ];
 
