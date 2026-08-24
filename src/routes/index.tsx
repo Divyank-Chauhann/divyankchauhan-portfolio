@@ -11,7 +11,6 @@ import { About } from "@/components/About";
 import { Stats } from "@/components/Stats";
 import { Skills } from "@/components/Skills";
 import { Services } from "@/components/Services";
-import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
@@ -72,7 +71,6 @@ function Index() {
         <Stats />
         <Skills />
         <Services />
-        <Testimonials />
         <FAQ />
         <CTA />
       </main>
