@@ -1,5 +1,5 @@
 
-import cars366MonitorAsset from "@/assets/cars366-monitor.jpg.asset.json";
+import cars366MonitorAsset from "@/assets/cars366-monitor.jpg";
 
 export type Project = {
   index: string;
