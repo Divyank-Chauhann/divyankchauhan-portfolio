@@ -43,23 +43,25 @@ export function CTA() {
           </a>
         </Reveal>
 
-        <Reveal delay={0.1} className="md:col-span-3 md:col-start-7">
+        <Reveal delay={0.1} className="md:col-span-4 md:col-start-7">
           <span className="label">Email</span>
           <a
             href={`mailto:${profile.email}`}
-            className="mt-3 block text-base underline-offset-4 hover:underline"
+            className="mt-3 block break-words text-base underline-offset-4 hover:underline"
           >
             {profile.email}
           </a>
         </Reveal>
 
-        <Reveal delay={0.15} className="md:col-span-3 md:col-start-10">
+        <Reveal delay={0.15} className="md:col-span-2 md:col-start-11">
           <span className="label">Elsewhere</span>
           <ul className="mt-3 space-y-1">
             {profile.socials.map((s) => (
               <li key={s.label}>
                 <a
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-base underline-offset-4 hover:underline"
                 >
                   {s.label}
