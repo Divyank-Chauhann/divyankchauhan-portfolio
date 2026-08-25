@@ -89,3 +89,13 @@ https://www.linkedin.com/in/divyank-chauhan
 ### License
 
 This portfolio is a personal project. Design work and visual assets belong to their respective creators/owners.
+
+---
+
+## Divyank Chauhan — UI/UX Designer Portfolio
+
+A personal portfolio showcasing my UI/UX, web design, and digital product design work.
+
+Check out the live portfolio here:
+
+[![DIVYANK CHAUHAN](https://img.shields.io/badge/DIVYANK%20CHAUHAN-LIVE-111111?style=flat-square)](https://divyank-chauhan-portfolio.netlify.app/)
