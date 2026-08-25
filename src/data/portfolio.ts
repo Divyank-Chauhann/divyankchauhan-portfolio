@@ -17,13 +17,11 @@ export type Project = {
 export const profile = {
   name: "Divyank Chauhan",
   role: "UI/UX Designer",
-  email: "hello@divyank.design", // TODO: replace with real email
+  email: "12324divyank.chauhan@gmail.com",
   location: "India",
   socials: [
-    { label: "LinkedIn", href: "#" },
-    { label: "GitHub", href: "#" },
-    { label: "Behance", href: "#" },
-    { label: "Dribbble", href: "#" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/divyank-chauhan" },
+    { label: "GitHub", href: "https://github.com/Divyank-Chauhann" },
   ],
 };
 
@@ -67,7 +65,7 @@ export const projects: Project[] = [
 ];
 
 export const stats = [
-  { value: 4, suffix: "+", label: "Selected Projects" },
+  { value: 3, suffix: "+", label: "Selected Projects" },
   { value: 5, suffix: "+", label: "Core Design Skills" },
   { value: 10, suffix: "+", label: "Digital Experiences" },
   { value: 100, suffix: "%", label: "Curiosity" },

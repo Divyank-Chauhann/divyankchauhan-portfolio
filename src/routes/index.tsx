@@ -5,7 +5,7 @@ import { GridLines } from "@/components/GridLines";
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
-import { Intro, BigStatement } from "@/components/Statement";
+import { Intro } from "@/components/Statement";
 import { Projects } from "@/components/Projects";
 import { About } from "@/components/About";
 import { Stats } from "@/components/Stats";
@@ -66,7 +66,6 @@ function Index() {
           direction="right"
           duration={32}
         />
-        <BigStatement />
         <About />
         <Stats />
         <Skills />

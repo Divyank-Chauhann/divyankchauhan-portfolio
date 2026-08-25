@@ -7,11 +7,11 @@ export function Intro() {
         <h2 className="display text-[11vw] leading-[0.9] md:col-span-8 md:text-[5.6vw]">
           <RevealLines
             lines={[
-              "Not just interfaces.",
+              "I make design",
               <>
-                I design{" "}
+                people{" "}
                 <span className="font-light italic lowercase text-muted-foreground">
-                  experiences.
+                  remember.
                 </span>
               </>,
             ]}
