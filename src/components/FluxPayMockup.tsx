@@ -1,22 +1,22 @@
-import homeAsset from "@/assets/fluxpay-Home.png.asset.json";
-import scanAsset from "@/assets/fluxpay-Scan_QR.png.asset.json";
-import sendAsset from "@/assets/fluxpay-Sending_Money_2.png.asset.json";
+import homeAsset from "@/assets/fluxpay-Home.png";
+import scanAsset from "@/assets/fluxpay-Scan_QR.png";
+import sendAsset from "@/assets/fluxpay-Sending_Money_2.png";
 
 const phones = [
   {
-    src: scanAsset.url,
+    src: scanAsset,
     alt: "FluxPay scan QR code screen",
     className:
       "w-[23%] -rotate-6 translate-y-[3%] z-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)]",
   },
   {
-    src: homeAsset.url,
+    src: homeAsset,
     alt: "FluxPay home screen with account balance and recent activity",
     className:
       "w-[27%] -mx-[2.5%] z-20 shadow-[0_40px_80px_-30px_rgba(0,0,0,0.6)]",
   },
   {
-    src: sendAsset.url,
+    src: sendAsset,
     alt: "FluxPay send money screen with keypad",
     className:
       "w-[23%] rotate-6 translate-y-[3%] z-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.55)]",
