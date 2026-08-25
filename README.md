@@ -92,10 +92,6 @@ This portfolio is a personal project. Design work and visual assets belong to th
 
 ---
 
-## Divyank Chauhan — UI/UX Designer Portfolio
+Check out the live project here:
 
-A personal portfolio showcasing my UI/UX, web design, and digital product design work.
-
-Check out the live portfolio here:
-
-[![DIVYANK CHAUHAN](https://img.shields.io/badge/DIVYANK%20CHAUHAN-LIVE-111111?style=flat-square)](https://divyank-chauhan-portfolio.netlify.app/)
+[![My Portfolio - Live](https://img.shields.io/badge/My%20Portfolio-Live-brightgreen?style=for-the-badge&logo=leaf&logoColor=white)](https://divyank-chauhan-portfolio.netlify.app/)
