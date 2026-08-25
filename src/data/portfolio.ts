@@ -58,7 +58,7 @@ export const projects: Project[] = [
     year: "2024",
     description:
       "A marketplace interface where inventory, filtering and vehicle detail pages feel fast and considered.",
-    image: cars366MonitorAsset.url,
+    image: cars366MonitorAsset,
     href: "https://cars366.netlify.app/",
     external: true,
   },
