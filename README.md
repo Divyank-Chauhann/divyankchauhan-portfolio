@@ -83,8 +83,6 @@ India
 **LinkedIn:**
 https://www.linkedin.com/in/divyank-chauhan
 
-**GitHub:**
-https://github.com/Divyank-Chauhann
 
 ---
 
