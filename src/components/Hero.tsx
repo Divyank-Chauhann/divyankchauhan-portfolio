@@ -16,8 +16,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="mb-10 flex flex-wrap items-center justify-between gap-4 border-b border-hairline pb-4 md:mb-16"
         >
-          <span className="label">Portfolio — 2026</span>
-          <span className="label">Based in India · Working worldwide</span>
+          <span className="label">Based in india</span>
         </motion.div>
 
         <h1 className="display text-[15vw] leading-[0.86] md:text-[10.6vw]">
@@ -27,14 +26,14 @@ export function Hero() {
               animateOnLoad
               delay={0.25}
               lines={[
-                "I design digital",
+                "Design that makes",
                 <>
-                  experiences{" "}
+                  people{" "}
                   <span className="font-light italic lowercase tracking-[-0.02em] text-muted-foreground">
-                    people
+                    look
                   </span>
                 </>,
-                "remember.",
+                "twice.",
               ]}
             />
           </span>
@@ -44,15 +43,14 @@ export function Hero() {
               animateOnLoad
               delay={0.25}
               lines={[
-                "I design",
-                "digital",
+                "Design that",
+                "makes",
                 <>
                   <span className="font-light italic lowercase text-muted-foreground">
-                    experiences
+                    people
                   </span>
                 </>,
-                "people",
-                "remember.",
+                "look twice.",
               ]}
             />
           </span>

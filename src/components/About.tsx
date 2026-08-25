@@ -11,11 +11,11 @@ export function About() {
         <h2 className="display text-[11vw] leading-[0.9] md:col-span-8 md:text-[5.4vw]">
           <RevealLines
             lines={[
-              "Designer with a",
+              "CREATIVITY STARTS",
               <>
-                developer&apos;s{" "}
+                WITH{" "}
                 <span className="font-light italic lowercase text-muted-foreground">
-                  understanding.
+                  thinking.
                 </span>
               </>,
             ]}
